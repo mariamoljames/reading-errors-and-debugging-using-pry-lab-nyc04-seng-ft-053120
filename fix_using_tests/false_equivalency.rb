@@ -22,3 +22,9 @@ def runner
   prompt_user
   selection(get_user_input)
 end
+
+def start_game
+  puts "What is your name?"
+  name=gets.chomp
+  puts "Welcome #{name}"
+end
